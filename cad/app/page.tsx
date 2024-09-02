@@ -1,3 +1,12 @@
+import { NavbarDemo } from "../components/navbar";
+
 export default function Home() {
-  return <main>boiler plate</main>;
+  return (
+    <>
+      <nav>
+        <NavbarDemo />
+      </nav>
+      <main>boiler plate</main>;
+    </>
+  );
 }
