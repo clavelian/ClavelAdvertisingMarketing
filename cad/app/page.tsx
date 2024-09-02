@@ -6,7 +6,7 @@ export default function Home() {
       <nav>
         <NavbarDemo />
       </nav>
-      <main>boiler plate</main>;
+      <main></main>
     </>
   );
 }
