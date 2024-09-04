@@ -1,8 +1,15 @@
+import { NavigationMenuDemo } from "../components/navmenu";
+import FlipWordsDemo from "../components/flipwords";
+
 export default function Home() {
   return (
     <>
-      <nav>this is where navbar goes</nav>
-      <main></main>
+      <nav>
+        <NavigationMenuDemo />{" "}
+      </nav>
+      <main>
+        <FlipWordsDemo />
+      </main>
     </>
   );
 }
