@@ -1,12 +1,15 @@
-import { NavbarDemo } from "../components/navbar";
+import { NavigationMenuDemo } from "../components/navmenu";
+import FlipWordsDemo from "../components/flipwords";
 
 export default function Home() {
   return (
     <>
       <nav>
-        <NavbarDemo />
+        <NavigationMenuDemo />{" "}
       </nav>
-      <main></main>
+      <main>
+        <FlipWordsDemo />
+      </main>
     </>
   );
 }
