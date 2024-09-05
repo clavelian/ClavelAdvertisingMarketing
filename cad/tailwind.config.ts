@@ -10,6 +10,20 @@ const config = {
 	],
   prefix: "",
   theme: {
+    screens: {
+      'mobile': {'min': '300px', 'max': '767px'},
+      // => @media (min-width: 640px and max-width: 767px) { ... }
+
+      'tablet': {'min': '768px', 'max': '1023px'},
+      // => @media (min-width: 768px and max-width: 1023px) { ... }
+
+      'smscreen': {'min': '1024px', 'max': '1279px'},
+      // => @media (min-width: 1024px and max-width: 1279px) { ... }
+
+      'wscreen': {'min': '1280px'},
+
+      'exclude': {'min':'768px'}
+    },
     container: {
       center: true,
       padding: "2rem",
