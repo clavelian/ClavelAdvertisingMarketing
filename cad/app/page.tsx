@@ -8,7 +8,7 @@ import { FloatingDockDemo } from "../components/floatingDock";
 export default function Home() {
   return (
     <>
-      <nav className="py-6 flex exclude:items-center exclude:justify-center bg-white ">
+      <nav className="py-0 flex exclude:items-center exclude:justify-center bg-white">
         <span className="">
           <Image
             src={camLogo}
