@@ -3,6 +3,7 @@ import camLogo from "../public/cam-logo.png";
 import { NavigationMenuDemo } from "../components/navmenu";
 import FlipWordsDemo from "../components/flipwords";
 import { ModeToggle } from "../components/ui/lnd";
+import { FloatingDockDemo } from "../components/floatingDock";
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ export default function Home() {
       <main>
         <FlipWordsDemo />
       </main>
+      <aside>
+        <FloatingDockDemo />
+      </aside>
     </>
   );
 }
