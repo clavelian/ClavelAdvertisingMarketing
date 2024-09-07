@@ -1,27 +1,27 @@
 import Image from "next/image";
-import camLogo from "../public/cam-logo.png";
+import camLogo from "../public/logo.png";
 import { NavigationMenuDemo } from "../components/navmenu";
 import FlipWordsDemo from "../components/flipwords";
 import { ModeToggle } from "../components/ui/lnd";
+import { FloatingDockDemo } from "../components/floatingDock";
 
 export default function Home() {
   return (
     <>
-      <nav className="py-6 flex exclude:items-center exclude:justify-center bg-white ">
-        <span className="">
+      <nav className="pt-4 flex exclude:items-center exclude:justify-center mobile:justify-center">
+        <span className="pr-3">
           <Image
             src={camLogo}
-            width={200}
-            height={200}
+            width={100}
+            height={100}
             alt="camLogo"
             priority={false}
-            className=""
           />
         </span>
-        <span className="mobile:hidden">
+        <span className="mobile:hidden ">
           <NavigationMenuDemo />
         </span>
-        <span className="exclude:pl-2 mobile:absolute right-7">
+        <span className="exclude:pl-2 right-7 mobile:hidden">
           <ModeToggle />
         </span>
 
@@ -30,6 +30,17 @@ export default function Home() {
       <main>
         <FlipWordsDemo />
       </main>
+      <div className="fixed bottom-[10rem] right-[6rem]">
+        <aside className="">
+          <FloatingDockDemo />
+        </aside>
+      </div>
+      <div className="w-[100vh]">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sed
+        blanditiis assumenda temporibus officia impedit atque aliquam cumque
+        mollitia minima error, at fugit corporis dolorem ad veritatis commodi.
+        At, omnis.
+      </div>
     </>
   );
 }
