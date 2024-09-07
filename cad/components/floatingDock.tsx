@@ -36,11 +36,11 @@ export function FloatingDockDemo() {
       ),
       href: "#",
     },
-    {
-      title: "Aceternity UI",
-      icon: <Image src="" width={20} height={20} alt="Aceternity Logo" />,
-      href: "#",
-    },
+    // {
+    //   title: "Aceternity UI",
+    //   icon: <Image src="" width={20} height={20} alt="Aceternity Logo" />,
+    //   href: "#",
+    // },
     {
       title: "Changelog",
       icon: (
@@ -65,11 +65,8 @@ export function FloatingDockDemo() {
     },
   ];
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
-      <FloatingDock
-        mobileClassName="translate-y-20" // only for demo, remove for production
-        items={links}
-      />
+    <div className="">
+      <FloatingDock items={links} />
     </div>
   );
 }
