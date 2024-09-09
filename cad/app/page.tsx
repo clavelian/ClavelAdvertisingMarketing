@@ -4,6 +4,7 @@ import { NavigationMenuDemo } from "../components/navmenu";
 import FlipWordsDemo from "../components/flipwords";
 import { ModeToggle } from "../components/ui/lnd";
 import { FloatingDockDemo } from "../components/floatingDock";
+import { StickyScrollRevealDemo } from "../components/stickyScroll";
 
 export default function Home() {
   return (
@@ -35,11 +36,8 @@ export default function Home() {
           <FloatingDockDemo />
         </aside>
       </div>
-      <div className="w-[100vh]">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur sed
-        blanditiis assumenda temporibus officia impedit atque aliquam cumque
-        mollitia minima error, at fugit corporis dolorem ad veritatis commodi.
-        At, omnis.
+      <div className="w-[100vh] justify-center place-items-center">
+        <StickyScrollRevealDemo />
       </div>
     </>
   );
