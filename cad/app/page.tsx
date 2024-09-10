@@ -28,7 +28,7 @@ export default function Home() {
 
         {/* =================body section================= */}
       </nav>
-      <main>
+      <main className="">
         <FlipWordsDemo />
       </main>
       <div className="fixed bottom-[10rem] right-[6rem]">

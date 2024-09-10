@@ -7,10 +7,9 @@ import {
   IconBrandFacebook,
   IconBrandX,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
   IconBrandGoogle,
   IconBrandInstagram,
+  IconMail,
 } from "@tabler/icons-react";
 import Image from "next/image";
 
@@ -51,9 +50,9 @@ export function FloatingDockDemo() {
       href: "#",
     },
     {
-      title: "IconBrandGoogle",
+      title: "IconMail",
       icon: (
-        <IconBrandGoogle className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
