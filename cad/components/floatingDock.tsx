@@ -3,12 +3,14 @@
 import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import {
-  IconBrandGithub,
+  IconBrandLinkedin,
+  IconBrandFacebook,
   IconBrandX,
-  IconExchange,
   IconHome,
   IconNewSection,
   IconTerminal2,
+  IconBrandGoogle,
+  IconBrandInstagram,
 } from "@tabler/icons-react";
 import Image from "next/image";
 
@@ -21,33 +23,11 @@ export function FloatingDockDemo() {
       ),
       href: "#",
     },
-
-    {
-      title: "Products",
-      icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
-    {
-      title: "Components",
-      icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
     // {
     //   title: "Aceternity UI",
     //   icon: <Image src="" width={20} height={20} alt="Aceternity Logo" />,
     //   href: "#",
     // },
-    {
-      title: "Changelog",
-      icon: (
-        <IconExchange className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-      ),
-      href: "#",
-    },
 
     {
       title: "Twitter",
@@ -57,9 +37,30 @@ export function FloatingDockDemo() {
       href: "#",
     },
     {
+      title: "FB",
+      icon: (
+        <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "https://www.facebook.com/Rosas04",
+    },
+    {
       title: "GitHub",
       icon: (
-        <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    {
+      title: "IconBrandGoogle",
+      icon: (
+        <IconBrandGoogle className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    {
+      title: "IconBrandInstagram",
+      icon: (
+        <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
