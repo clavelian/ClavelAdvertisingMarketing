@@ -36,7 +36,7 @@ export default function Home() {
           <FloatingDockDemo />
         </aside>
       </div>
-      <div className="w-[100vh] justify-center place-items-center">
+      <div className=" flex items-center justify-center ">
         <StickyScrollRevealDemo />
       </div>
     </>
