@@ -5,12 +5,14 @@ import FlipWordsDemo from "../components/flipwords";
 import { ModeToggle } from "../components/ui/lnd";
 // import { FloatingDockDemo } from "../components/floatingDock";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
+import Link from "next/link";
+import MyButton from "../components/ui/contactus";
 
 export default function Home() {
   return (
     <>
-      <nav className="pt-4 flex exclude:items-center exclude:justify-center mobile:justify-start mobile:pl-5">
-        <span className="pr-4">
+      <nav className="pt-4 flex exclude:items-center exclude:justify-center ">
+        <span className="pr-4 mobile:justify-start mobile:pl-5">
           <Image
             src={camLogo}
             width={100}
@@ -26,6 +28,9 @@ export default function Home() {
         <span className="exclude:pl-2 right-7 mobile:hidden">
           <ModeToggle />
         </span>
+        <div className="absolute top-14 right-1/3">
+          <MyButton />
+        </div>
 
         {/* =================body section================= */}
       </nav>
