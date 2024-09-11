@@ -17,6 +17,7 @@ export default function Home() {
             height={100}
             alt="camLogo"
             priority={false}
+            layout="none"
           />
         </span>
         <span className="mobile:hidden ">
