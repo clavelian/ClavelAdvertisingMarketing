@@ -3,14 +3,14 @@ import camLogo from "../public/logo.png";
 import { NavigationMenuDemo } from "../components/navmenu";
 import FlipWordsDemo from "../components/flipwords";
 import { ModeToggle } from "../components/ui/lnd";
-import { FloatingDockDemo } from "../components/floatingDock";
+// import { FloatingDockDemo } from "../components/floatingDock";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
 
 export default function Home() {
   return (
     <>
-      <nav className="pt-4 flex exclude:items-center exclude:justify-center mobile:justify-center">
-        <span className="pr-3">
+      <nav className="pt-4 flex exclude:items-center exclude:justify-center mobile:justify-start mobile:pl-5">
+        <span className="pr-4">
           <Image
             src={camLogo}
             width={100}
@@ -32,9 +32,7 @@ export default function Home() {
         <FlipWordsDemo />
       </main>
       <div className="fixed bottom-[10rem] right-[6rem]">
-        <aside className="">
-          <FloatingDockDemo />
-        </aside>
+        <aside className="">{/* <FloatingDockDemo /> */}</aside>
       </div>
       <div className=" flex items-center justify-center">
         <StickyScrollRevealDemo />
