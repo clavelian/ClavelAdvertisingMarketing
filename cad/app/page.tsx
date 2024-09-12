@@ -19,13 +19,13 @@ export default function Home() {
             alt="camLogo"
             priority={false}
             layout="none"
-            objectFit="cover"
+            className=""
           />
         </span>
         <span className="mobile:hidden ">
           <NavigationMenuDemo />
         </span>
-        <span className="exclude:pl-2 right-7 mobile:hidden">
+        <span className="exclude:pl-2 mobile:absolute mobile:right-10 mobile:top-16">
           <ModeToggle />
         </span>
 
