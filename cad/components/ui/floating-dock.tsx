@@ -83,7 +83,7 @@ const FloatingDockMobile = ({
         onClick={() => setOpen(!open)}
         className="h-[2.3rem] w-[2.3rem] rounded-full flex items-center justify-center"
       >
-        <IconLayoutNavbarCollapse className="h-10 w-10 text-neutral-500 dark:text-neutral-400" />
+        <IconLayoutNavbarCollapse className="h-10 w-10 text-neutral-400 dark:text-neutral-300" />
       </button>
     </div>
   );
@@ -102,7 +102,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden md:flex h-16 gap-4 items-end  rounded-2xl bg-gray-50 dark:bg-neutral-900 px-4 pb-3",
+        "mx-auto hidden exclude:flex h-16 gap-4 items-end  rounded-2xl bg-gray-50 dark:bg-neutral-900 px-4 pb-3",
         className
       )}
     >

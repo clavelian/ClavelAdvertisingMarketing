@@ -57,7 +57,7 @@ export function NavigationMenuDemo() {
     <NavigationMenu>
       <NavigationMenuList>
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
           <NavigationMenuContent>
 <<<<<<< Updated upstream
             <ul className="grid p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
@@ -71,11 +71,8 @@ export function NavigationMenuDemo() {
                 Re-usable components built using Radix UI and Tailwind CSS.
 >>>>>>> Stashed changes
               </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
-              </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
+              <ListItem href="/docs/installation" title="Services">
+                Explore our services, from SEO to Social Media Management etc.
               </ListItem>
             </ul>
           </NavigationMenuContent>
@@ -99,7 +96,7 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
+              Contact Us
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
