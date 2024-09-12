@@ -59,9 +59,17 @@ export function NavigationMenuDemo() {
         <NavigationMenuItem>
           <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
           <NavigationMenuContent>
+<<<<<<< Updated upstream
             <ul className="grid p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
               <ListItem href="/docs" title="About Clavel Marketing">
                 Learn more about us.
+=======
+            <ul className="grid gap-3 p-4 md:w-[300px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              {/* <NavigationMenuLink asChild></NavigationMenuLink> */}
+
+              <ListItem href="/docs" title="Home">
+                Re-usable components built using Radix UI and Tailwind CSS.
+>>>>>>> Stashed changes
               </ListItem>
               <ListItem href="/docs/installation" title="Installation">
                 How to install dependencies and structure your app.

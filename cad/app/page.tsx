@@ -9,8 +9,13 @@ import { StickyScrollRevealDemo } from "../components/stickyScroll";
 export default function Home() {
   return (
     <>
+<<<<<<< Updated upstream
       <nav className="pt-4 flex exclude:items-center exclude:justify-center mobile:justify-center">
         <span className="pr-3">
+=======
+      <nav className="py-6 flex exclude:items-center exclude:justify-center bg-white ">
+        <span className="mobile:absolute mobile:top-[-30px]">
+>>>>>>> Stashed changes
           <Image
             src={camLogo}
             width={100}
