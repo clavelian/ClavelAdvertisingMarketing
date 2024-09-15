@@ -11,7 +11,7 @@ import { HeroHighlightDemo } from "../components/hero";
 export default function Home() {
   return (
     <>
-      <nav className="pt-4 exclude:pt-14 flex exclude:items-center exclude:justify-center ">
+      <nav className="pt-4 exclude:pt-14  exclude:items-center exclude:justify-center ">
         <span className="pr-6 mobile:justify-start mobile:pl-10 mobile:pt-5 ">
           <Image
             src={camLogo}

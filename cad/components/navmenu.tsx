@@ -54,24 +54,25 @@ import {
 
 export function NavigationMenuDemo() {
   return (
-    <NavigationMenu>
-      <NavigationMenuList>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <ListItem href="/docs" title="About Clavel Marketing">
-                Learn more about us.
-              </ListItem>
-              <ListItem href="/docs/installation" title="Services">
-                Explore our services, from SEO to Social Media Management etc.
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
-          {/* <NavigationMenuContent>
+    <div className="flex justify-center items-center">
+      <NavigationMenu>
+        <NavigationMenuList>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
+            <NavigationMenuContent>
+              <ul className="grid p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+                <ListItem href="/docs" title="About Clavel Marketing">
+                  Learn more about us.
+                </ListItem>
+                <ListItem href="/docs/installation" title="Services">
+                  Explore our services, from SEO to Social Media Management etc.
+                </ListItem>
+              </ul>
+            </NavigationMenuContent>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
+            {/* <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
                 <ListItem
@@ -84,16 +85,17 @@ export function NavigationMenuDemo() {
               ))}
             </ul>
           </NavigationMenuContent> */}
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
-            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Contact Us
-            </NavigationMenuLink>
-          </Link>
-        </NavigationMenuItem>
-      </NavigationMenuList>
-    </NavigationMenu>
+          </NavigationMenuItem>
+          <NavigationMenuItem>
+            <Link href="/docs" legacyBehavior passHref>
+              <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                Contact Us
+              </NavigationMenuLink>
+            </Link>
+          </NavigationMenuItem>
+        </NavigationMenuList>
+      </NavigationMenu>
+    </div>
   );
 }
 
