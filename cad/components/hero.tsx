@@ -24,7 +24,10 @@ export function HeroHighlightDemo() {
         <Highlight className="text-black dark:text-white">
           Chaos to Clarity <br />
         </Highlight>
-        Clavel Advertising Marketing’s VA Services
+        Clavel Advertising Marketing’s VA Services <br />
+        <span className="text-sm">
+          Focus on what matters with seamless support.
+        </span>
       </motion.h1>
     </HeroHighlight>
   );

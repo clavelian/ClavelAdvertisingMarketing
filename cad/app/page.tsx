@@ -11,11 +11,12 @@ import { HeroHighlightDemo } from "../components/hero";
 export default function Home() {
   return (
     <>
-      <nav className="">
+      <nav className="exclude:py-4">
         <span className="pt-4 exclude:pt-14 exclude:items-center exclude:justify-center ">
           <NavigationMenuDemo />
         </span>
       </nav>
+
       {/* =================body section================= */}
       <main className="">
         {/* <FlipWordsDemo /> */}

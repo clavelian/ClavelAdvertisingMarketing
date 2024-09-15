@@ -62,8 +62,8 @@ export function NavigationMenuDemo() {
       <span className="pr-6  mobile:justify-start mobile:pl-2 mobile:pt-5 ">
         <Image
           src={camLogo}
-          width={75}
-          height={75}
+          width={70}
+          height={70}
           alt="camLogo"
           priority={false}
           layout="none"
