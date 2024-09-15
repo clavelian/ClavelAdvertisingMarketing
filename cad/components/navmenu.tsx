@@ -2,6 +2,10 @@
 
 import * as React from "react";
 import Link from "next/link";
+import Image from "next/image";
+import camLogo from "../public/logo.png";
+import camFullLogo from "../public/CAM1.png";
+import { ModeToggle } from "../components/ui/lnd";
 
 import { cn } from "@/lib/utils";
 import {
@@ -55,12 +59,32 @@ import {
 export function NavigationMenuDemo() {
   return (
     <div className="flex justify-center items-center">
+      <span className="pr-6  mobile:justify-start mobile:pl-2 mobile:pt-5 ">
+        <Image
+          src={camLogo}
+          width={75}
+          height={75}
+          alt="camLogo"
+          priority={false}
+          layout="none"
+          className="exclude:hidden"
+        />
+        <Image
+          src={camFullLogo}
+          width={150}
+          height={150}
+          alt="camLogo"
+          priority={false}
+          layout="none"
+          className="mobile:hidden"
+        />
+      </span>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              <ul className="grid p-6 mobile:p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <ListItem href="/docs" title="About Clavel Marketing">
                   Learn more about us.
                 </ListItem>
@@ -71,7 +95,9 @@ export function NavigationMenuDemo() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
+            <span className="mobile:hidden">
+              <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
+            </span>
             {/* <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
@@ -86,7 +112,7 @@ export function NavigationMenuDemo() {
             </ul>
           </NavigationMenuContent> */}
           </NavigationMenuItem>
-          <NavigationMenuItem>
+          <NavigationMenuItem className="mobile:pr-4">
             <Link href="/docs" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Contact Us
@@ -95,6 +121,9 @@ export function NavigationMenuDemo() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
+      <span className="exclude:pl-2 flex mobile:pr-3">
+        <ModeToggle />
+      </span>
     </div>
   );
 }

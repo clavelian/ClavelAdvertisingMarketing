@@ -11,32 +11,9 @@ import { HeroHighlightDemo } from "../components/hero";
 export default function Home() {
   return (
     <>
-      <nav className="pt-4 exclude:pt-14  exclude:items-center exclude:justify-center ">
-        <span className="pr-6 mobile:justify-start mobile:pl-10 mobile:pt-5 ">
-          <Image
-            src={camLogo}
-            width={75}
-            height={75}
-            alt="camLogo"
-            priority={false}
-            layout="none"
-            className="exclude:hidden"
-          />
-          <Image
-            src={camFullLogo}
-            width={150}
-            height={150}
-            alt="camLogo"
-            priority={false}
-            layout="none"
-            className="mobile:hidden"
-          />
-        </span>
-        <span className="mobile:hidden ">
+      <nav className="">
+        <span className="pt-4 exclude:pt-14 exclude:items-center exclude:justify-center ">
           <NavigationMenuDemo />
-        </span>
-        <span className="exclude:pl-2 mobile:absolute mobile:right-10 mobile:top-14">
-          <ModeToggle />
         </span>
       </nav>
       {/* =================body section================= */}
