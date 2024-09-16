@@ -1,9 +1,6 @@
 import Image from "next/image";
-import camLogo from "../public/logo.png";
-import camFullLogo from "../public/CAM1.png";
 import { NavigationMenuDemo } from "../components/navmenu";
 // import FlipWordsDemo from "../components/flipwords";
-import { ModeToggle } from "../components/ui/lnd";
 // import { FloatingDockDemo } from "../components/floatingDock";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
 import { HeroHighlightDemo } from "../components/hero";
