@@ -4,6 +4,7 @@ import { NavigationMenuDemo } from "../components/navmenu";
 // import { FloatingDockDemo } from "../components/floatingDock";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
 import { HeroHighlightDemo } from "../components/hero";
+import { AnimatedModalDemo } from "@/components/animeModal";
 
 export default function Home() {
   return (
@@ -25,7 +26,9 @@ export default function Home() {
       <div className=" flex items-center justify-center">
         <StickyScrollRevealDemo />
       </div>
-      <div></div>
+      <div>
+        <AnimatedModalDemo />
+      </div>
     </>
   );
 }

@@ -113,7 +113,7 @@ export function NavigationMenuDemo() {
           </NavigationMenuContent> */}
           </NavigationMenuItem>
           <NavigationMenuItem className="mobile:pr-4">
-            <Link href="/docs" legacyBehavior passHref>
+            <Link href="/contact" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Contact Us
               </NavigationMenuLink>
