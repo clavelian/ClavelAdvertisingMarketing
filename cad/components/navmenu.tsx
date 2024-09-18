@@ -113,18 +113,20 @@ export function NavigationMenuDemo() {
             </ul>
           </NavigationMenuContent> */}
           </NavigationMenuItem>
-          <NavigationMenuItem className="mobile:pr-4">
+          {/* <NavigationMenuItem className="mobile:pr-4">
             <Link href="/contact" legacyBehavior passHref>
               <NavigationMenuLink className={navigationMenuTriggerStyle()}>
                 Contact Us
               </NavigationMenuLink>
             </Link>
-          </NavigationMenuItem>
+          </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
-      <Link href="">
-        <AnimatedModalDemo />
-      </Link>
+      <span className="px-2">
+        <Link href="">
+          <AnimatedModalDemo />
+        </Link>
+      </span>
       <span className="exclude:pl-2 flex mobile:pr-3">
         <ModeToggle />
       </span>
