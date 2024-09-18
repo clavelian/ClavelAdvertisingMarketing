@@ -6,6 +6,7 @@ import Image from "next/image";
 import camLogo from "../public/logo.png";
 import camFullLogo from "../public/CAM1.png";
 import { ModeToggle } from "../components/ui/lnd";
+import { AnimatedModalDemo } from "@/components/animeModal";
 
 import { cn } from "@/lib/utils";
 import {
@@ -121,6 +122,9 @@ export function NavigationMenuDemo() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
+      <Link href="">
+        <AnimatedModalDemo />
+      </Link>
       <span className="exclude:pl-2 flex mobile:pr-3">
         <ModeToggle />
       </span>
