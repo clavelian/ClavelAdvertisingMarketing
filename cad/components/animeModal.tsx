@@ -20,7 +20,7 @@ export function AnimatedModalDemo() {
   return (
     <div className="flex items-center justify-center">
       <Modal>
-        <ModalTrigger className="px-8 py-2 rounded-md bg-teal-500 text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500">
+        <ModalTrigger className="px-6 py-2 font-light bg-teal-700 dark:bg-teal-700 dark:text-white text-white flex justify-center group/modal-btn">
           {/* group/modal-btn */}
           <span className="group-hover/modal-btn:translate-x-40 text-center transition duration-500">
             Contact
