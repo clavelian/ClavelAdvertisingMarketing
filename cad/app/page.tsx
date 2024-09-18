@@ -26,9 +26,6 @@ export default function Home() {
       <div className=" flex items-center justify-center">
         <StickyScrollRevealDemo />
       </div>
-      <div>
-        <AnimatedModalDemo />
-      </div>
     </>
   );
 }
