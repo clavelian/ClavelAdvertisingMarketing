@@ -85,7 +85,7 @@ export function NavigationMenuDemo() {
           <NavigationMenuItem>
             <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid p-6 mobile:p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              <ul className="grid p-4 mobile:p-4 exclude:w-[300px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <ListItem href="/docs" title="About Clavel Marketing">
                   Learn more about us.
                 </ListItem>
