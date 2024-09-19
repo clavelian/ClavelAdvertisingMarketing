@@ -1,7 +1,6 @@
 import Image from "next/image";
 import { NavigationMenuDemo } from "../components/navmenu";
 // import FlipWordsDemo from "../components/flipwords";
-// import { FloatingDockDemo } from "../components/floatingDock";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
 import { HeroHighlightDemo } from "../components/hero";
 import { AnimatedModalDemo } from "@/components/animeModal";
@@ -16,12 +15,11 @@ export default function Home() {
       </nav>
 
       {/* =================body section================= */}
-      <main className="">
-        {/* <FlipWordsDemo /> */}
+      <main className="h-[55rem]">
         <HeroHighlightDemo />
       </main>
       <div className="fixed bottom-[10rem] right-[6rem]">
-        <aside className="">{/* <FloatingDockDemo /> */}</aside>
+        <aside className=""></aside>
       </div>
       <div className=" flex items-center justify-center">
         <StickyScrollRevealDemo />
