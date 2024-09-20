@@ -60,26 +60,28 @@ import {
 export function NavigationMenuDemo() {
   return (
     <div className="flex justify-center items-center">
-      <span className="pr-6  mobile:justify-start mobile:pl-2 mobile:pt-5 ">
-        <Image
-          src={camLogo}
-          width={70}
-          height={70}
-          alt="camLogo"
-          priority={false}
-          layout="none"
-          className="exclude:hidden"
-        />
-        <Image
-          src={camFullLogo}
-          width={150}
-          height={150}
-          alt="camLogo"
-          priority={false}
-          layout="none"
-          className="mobile:hidden"
-        />
-      </span>
+      <Link href="/">
+        <span className="pr-6  mobile:justify-start mobile:pl-2 mobile:pt-5 ">
+          <Image
+            src={camLogo}
+            width={70}
+            height={70}
+            alt="camLogo"
+            priority={false}
+            layout="none"
+            className="exclude:hidden"
+          />
+          <Image
+            src={camFullLogo}
+            width={150}
+            height={150}
+            alt="camLogo"
+            priority={false}
+            layout="none"
+            className="mobile:hidden"
+          />
+        </span>
+      </Link>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
