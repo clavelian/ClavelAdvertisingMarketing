@@ -17,11 +17,16 @@ export default function SignupFormDemo() {
   return (
     <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
-        Welcome to Aceternity
+        Ready to take your content strategy to the next level?
       </h2>
-      <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
-        Login to aceternity if you can because we don&apos;t have a login flow
-        yet
+      <p
+        className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300"
+        aria-required
+      >
+        Discuss your specific needs and see how Clavel Advertising Marketing can
+        tailor a content strategy to reach your social media goal. <br />
+        <br /> Quick Inquiry? Use the form to send a message for a faster
+        response to general questions.
       </p>
 
       <form className="my-8" onSubmit={handleSubmit}>
@@ -38,18 +43,6 @@ export default function SignupFormDemo() {
         <LabelInputContainer className="mb-4">
           <Label htmlFor="email">Email Address</Label>
           <Input id="email" placeholder="projectmayhem@fc.com" type="email" />
-        </LabelInputContainer>
-        <LabelInputContainer className="mb-4">
-          <Label htmlFor="password">Password</Label>
-          <Input id="password" placeholder="••••••••" type="password" />
-        </LabelInputContainer>
-        <LabelInputContainer className="mb-8">
-          <Label htmlFor="twitterpassword">Your twitter password</Label>
-          <Input
-            id="twitterpassword"
-            placeholder="••••••••"
-            type="twitterpassword"
-          />
         </LabelInputContainer>
 
         <button

@@ -85,7 +85,7 @@ export function NavigationMenuDemo() {
           <NavigationMenuItem>
             <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid p-4 mobile:p-4 exclude:w-[300px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
+              <ul className="grid p-4 mobile:p-4 w-[300px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <ListItem href="/docs" title="About Clavel Marketing">
                   Learn more about us.
                 </ListItem>
@@ -97,7 +97,9 @@ export function NavigationMenuDemo() {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <span className="mobile:hidden">
-              <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
+              <Link href="/samples">
+                <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
+              </Link>
             </span>
             {/* <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
@@ -122,12 +124,12 @@ export function NavigationMenuDemo() {
           </NavigationMenuItem> */}
         </NavigationMenuList>
       </NavigationMenu>
-      <span className="px-2">
+      <span className="px-2 z-30">
         <Link href="">
           <AnimatedModalDemo />
         </Link>
       </span>
-      <span className="exclude:pl-2 flex mobile:pr-3">
+      <span className="exclude:pl-2 flex mobile:pr-3 z-30">
         <ModeToggle />
       </span>
     </div>
