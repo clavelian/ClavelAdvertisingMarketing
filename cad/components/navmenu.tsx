@@ -59,9 +59,9 @@ import {
 
 export function NavigationMenuDemo() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center ">
       <Link href="/">
-        <span className="pr-6  mobile:justify-start mobile:pl-2 mobile:pt-5 ">
+        <span className="pr-6 mobile:justify-start mobile:pl-2 mobile:pt-5 ">
           <Image
             src={camLogo}
             width={70}
@@ -78,7 +78,7 @@ export function NavigationMenuDemo() {
             alt="camLogo"
             priority={false}
             layout="none"
-            className="mobile:hidden"
+            className="mobile:hidden "
           />
         </span>
       </Link>

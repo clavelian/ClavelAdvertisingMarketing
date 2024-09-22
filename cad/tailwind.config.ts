@@ -39,7 +39,7 @@ const config = {
     extend: {
       colors: {
         bgcolor: {
-          50:"hsl(0, 0%, 98%)",
+          50:"hsl(0, 0%, 96%)",
           100:"hsl(222.2 84% 4.9%)"
         } ,
 
