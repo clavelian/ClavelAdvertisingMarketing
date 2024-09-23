@@ -8,11 +8,11 @@ export function HeroHighlightDemo() {
       <motion.h1
         initial={{
           opacity: 0,
-          y: 20,
+          y: 40,
         }}
         animate={{
           opacity: 1,
-          y: [20, -5, 0],
+          y: [50, -5, 0],
         }}
         transition={{
           duration: 0.5,
