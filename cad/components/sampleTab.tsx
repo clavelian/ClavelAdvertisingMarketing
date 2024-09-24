@@ -14,19 +14,19 @@ export function TabsDemo() {
       content: (
         <>
           <div>
-            <p className="text-base md:text-4xl flex-1 ">
+            <p className="text-base md:text-4xl flex pb-20 exclude:px-40 mobile:px-20 ">
               Welcome more followers, and get ready for thousands of
               notifications of likes and comments with our engaging graphics and
               captions.
             </p>
           </div>
-          <div className="grid grid-cols-3 gap-7 p-4 ">
+          <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-y-7 p-4 justify-center items-center">
             <Image
               src={Instagram1}
               alt="Instagram post wave"
               height={250}
               width={250}
-              className="object-contain "
+              className="object-contain mobile:px-1"
             />
             <Image
               src={Instagram2}
