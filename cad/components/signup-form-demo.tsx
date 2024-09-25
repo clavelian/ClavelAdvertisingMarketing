@@ -15,9 +15,9 @@ export default function SignupFormDemo() {
     console.log("Form submitted");
   };
   return (
-    <div className="max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
+    <div className=" h-[auto] max-w-md w-full mx-auto rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black">
       <p
-        className="text-black text- max-w-sm mt-1 dark:text-neutral-100"
+        className="text-black max-w-sm mt-1 dark:text-neutral-100"
         aria-required
       >
         Discuss your specific needs and see how Clavel Advertising Marketing can

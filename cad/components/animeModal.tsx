@@ -32,14 +32,14 @@ export function AnimatedModalDemo() {
         </ModalTrigger>
         <ModalBody>
           <ModalContent>
-            <h4 className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
+            <span className="text-xl md:text-2xl text-neutral-600 dark:text-neutral-100 font-bold text-center mb-8">
               Ready to take your content strategy to the next{" "}
               <span className="px-1 py-0.5 rounded-md bg-gray-100 dark:bg-neutral-800 dark:border-neutral-700 border border-gray-200">
                 Level
               </span>{" "}
               ?
-            </h4>
-            <div className="flex justify-center items-center gap-4">
+            </span>
+            {/* <div className="flex justify-center items-center gap-4">
               {images.map((image, idx) => (
                 <motion.div
                   key={"images" + idx}
@@ -67,7 +67,7 @@ export function AnimatedModalDemo() {
                   />
                 </motion.div>
               ))}
-            </div>
+            </div> */}
             <div className="py-2 flex flex-wrap gap-x-4 gap-y-6 items-start justify-start max-w-sm mx-auto"></div>
           </ModalContent>
 
