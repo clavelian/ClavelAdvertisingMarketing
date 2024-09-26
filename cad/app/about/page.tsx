@@ -8,6 +8,9 @@ const Aboutme = () => {
           <NavigationMenuDemo />
         </span>
       </nav>
+      <main>
+        <p className="text-4xl">This is the page for About</p>
+      </main>
     </>
   );
 };

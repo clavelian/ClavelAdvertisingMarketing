@@ -61,7 +61,7 @@ export function NavigationMenuDemo() {
   return (
     <div className="flex justify-center items-center ">
       <Link href="/">
-        <span className="pr-6 mobile:justify-start mobile:pl-2 mobile:pt-5 ">
+        <span className="pr-6 mobile:justify-start mobile:pl-20 mobile:pt-5 ">
           <Image
             src={camLogo}
             width={70}
@@ -88,10 +88,10 @@ export function NavigationMenuDemo() {
             <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid p-4 mobile:p-4 w-[300px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                <ListItem href="/docs" title="About Clavel Marketing">
+                <ListItem href="/about" title="About Clavel Marketing">
                   Learn more about us.
                 </ListItem>
-                <ListItem href="/docs/installation" title="Services">
+                <ListItem href="/services" title="Services">
                   Explore our services, from SEO to Social Media Management etc.
                 </ListItem>
               </ul>
@@ -131,7 +131,7 @@ export function NavigationMenuDemo() {
           <AnimatedModalDemo />
         </Link>
       </span>
-      <span className="exclude:pl-2 flex mobile:pr-3 z-30">
+      <span className="exclude:pl-2 flex mobile:pr-3 z-10">
         <ModeToggle />
       </span>
     </div>

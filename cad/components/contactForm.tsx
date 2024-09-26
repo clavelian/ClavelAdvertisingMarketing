@@ -4,9 +4,7 @@ import SignupFormDemo from "@/components/signup-form-demo";
 const Contactus = () => {
   return (
     <>
-      <div>
-        <SignupFormDemo />
-      </div>
+      <SignupFormDemo />
     </>
   );
 };
