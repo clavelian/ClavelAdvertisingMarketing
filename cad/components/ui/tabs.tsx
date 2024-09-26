@@ -52,23 +52,24 @@ export const Tabs = ({
             }}
             onMouseEnter={() => setHovering(true)}
             onMouseLeave={() => setHovering(false)}
-            className={cn("relative px-4 py-2 rounded-full", tabClassName)}
+            className={cn("relative px-4 py-2 rounded-full", tabClassName)} //controls how big is the background
             style={{
               transformStyle: "preserve-3d",
             }}
           >
+            {/* background for Insta gif brand and logo */}
             {active.value === tab.value && (
               <motion.div
                 layoutId="clickedbutton"
                 transition={{ type: "spring", bounce: 0.3, duration: 0.6 }}
                 className={cn(
-                  "absolute inset-0 bg-gray-200 dark:bg-zinc-800 rounded-full ",
+                  "absolute inset-0 bg-teal-700 rounded-2xl ",
                   activeTabClassName
                 )}
               />
             )}
-
-            <span className="relative block text-black dark:text-white">
+            {/* font for the above background */}
+            <span className="relative block text-black dark:text-bgcolor-50">
               {tab.title}
             </span>
           </button>
@@ -79,7 +80,7 @@ export const Tabs = ({
         active={active}
         key={active.value}
         hovering={hovering}
-        className={cn("mt-32", contentClassName)}
+        className={cn("mt-20", contentClassName)}
       />
     </>
   );
