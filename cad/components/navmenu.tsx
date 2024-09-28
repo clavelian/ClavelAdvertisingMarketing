@@ -61,11 +61,11 @@ export function NavigationMenuDemo() {
   return (
     <div className="flex justify-center items-center ">
       <Link href="/">
-        <span className="pr-6 mobile:justify-start mobile:pl-20 mobile:pt-5 ">
+        <span className="pr-6 mobile:pr-4 mobile:justify-start mobile:pl-16">
           <Image
             src={camLogo}
-            width={70}
-            height={70}
+            width={45}
+            height={45}
             alt="camLogo"
             priority={false}
             layout="none"
@@ -98,7 +98,7 @@ export function NavigationMenuDemo() {
             </NavigationMenuContent>
           </NavigationMenuItem>
           <NavigationMenuItem>
-            <span className="mobile:hidden">
+            <span className="mobile:">
               <Link href="/samples">
                 <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
               </Link>
