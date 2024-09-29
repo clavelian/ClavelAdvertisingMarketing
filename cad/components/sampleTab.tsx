@@ -23,19 +23,20 @@ export function TabsDemo() {
       content: (
         <>
           <div>
-            <p className="text-base md:text-4xl flex pb-20 exclude:px-40 mobile:px-20 ">
+            {/* <p className="text-base md:text-4xl flex pb-20 exclude:px-40 mobile:px-20 "> */}
+            <p className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight pb-20">
               Welcome more followers, and get ready for thousands of
               notifications of likes and comments with our engaging graphics and
               captions.
             </p>
           </div>
-          <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-y-7 p-4 justify-center items-center">
+          <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={Instagram1}
               alt="Instagram post wave"
               height={250}
               width={250}
-              className="object-contain mobile:px-1"
+              className="object-contain"
             />
             <Image
               src={Instagram2}
