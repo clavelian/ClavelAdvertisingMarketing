@@ -14,6 +14,7 @@ import Instagram9 from "@/public/insta9.webp";
 import Instagram10 from "@/public/insta10.webp";
 import Instagram11 from "@/public/insta11.webp";
 import Instagram12 from "@/public/insta12.webp";
+import Gif1 from "@/public/gif1.gif";
 
 export function TabsDemo() {
   const tabs = [
@@ -125,10 +126,25 @@ export function TabsDemo() {
       title: "GIF Post",
       value: "services",
       content: (
-        <div className=" w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold dark:text-white ">
-          <p>GIF Post</p>
-          <DummyContent />
-        </div>
+        <>
+          <div>
+            {/* <p className="text-base md:text-4xl flex pb-20 exclude:px-40 mobile:px-20 "> */}
+            <p className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight pb-20">
+              Welcome more followers, and get ready for thousands of
+              notifications of likes and comments with our engaging graphics and
+              captions.
+            </p>
+          </div>
+          <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
+            <Image
+              src={Gif1}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+          </div>
+        </>
       ),
     },
     {
