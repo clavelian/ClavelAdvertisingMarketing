@@ -5,6 +5,15 @@ import { Tabs } from "@/components/ui/tabs";
 import Instagram1 from "@/public/insta1.webp";
 import Instagram2 from "@/public/insta2.webp";
 import Instagram3 from "@/public/insta3.webp";
+import Instagram4 from "@/public/insta4.webp";
+import Instagram5 from "@/public/insta5.webp";
+import Instagram6 from "@/public/insta6.webp";
+import Instagram7 from "@/public/insta7.webp";
+import Instagram8 from "@/public/insta8.webp";
+import Instagram9 from "@/public/insta9.webp";
+import Instagram10 from "@/public/insta10.webp";
+import Instagram11 from "@/public/insta11.webp";
+import Instagram12 from "@/public/insta12.webp";
 
 export function TabsDemo() {
   const tabs = [
@@ -30,42 +39,77 @@ export function TabsDemo() {
             />
             <Image
               src={Instagram2}
-              alt="idk tal;agashet"
+              alt="instagram"
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={Instagram3}
-              alt="idk tal;agashet"
+              alt="instagram"
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
-              src={Instagram3}
-              alt="idk tal;agashet"
+              src={Instagram4}
+              alt="instagram"
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
-              src={Instagram3}
-              alt="idk tal;agashet"
+              src={Instagram5}
+              alt="instagram"
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
-              src={Instagram3}
-              alt="idk tal;agashet"
+              src={Instagram6}
+              alt="instagram"
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
-              src={Instagram3}
-              alt="idk tal;agashet"
+              src={Instagram7}
+              alt="instagram"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={Instagram8}
+              alt="instagram"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={Instagram9}
+              alt="instagram"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={Instagram10}
+              alt="instagram"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={Instagram11}
+              alt="instagram"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={Instagram12}
+              alt="instagram"
               height={250}
               width={250}
               className="object-contain"
