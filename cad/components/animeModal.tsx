@@ -9,14 +9,10 @@ import {
 } from "../components/ui/animated-modal";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import c1 from "@/public/c1.png";
-import c2 from "@/public/c2.png";
-import c3 from "@/public/c3.png";
-import c4 from "@/public/c4.png";
 import Contactus from "./contactForm";
 
 export function AnimatedModalDemo() {
-  const images = [c1, c2, c3, c4];
+  const images = [];
 
   return (
     <div className="flex items-center justify-center">

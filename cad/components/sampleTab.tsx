@@ -2,19 +2,19 @@
 
 import Image from "next/image";
 import { Tabs } from "@/components/ui/tabs";
-import Instagram1 from "@/public/insta1.webp";
-import Instagram2 from "@/public/insta2.webp";
-import Instagram3 from "@/public/insta3.webp";
-import Instagram4 from "@/public/insta4.webp";
-import Instagram5 from "@/public/insta5.webp";
-import Instagram6 from "@/public/insta6.webp";
-import Instagram7 from "@/public/insta7.webp";
-import Instagram8 from "@/public/insta8.webp";
-import Instagram9 from "@/public/insta9.webp";
-import Instagram10 from "@/public/insta10.webp";
-import Instagram11 from "@/public/insta11.webp";
-import Instagram12 from "@/public/insta12.webp";
-import Gif1 from "@/public/gif1.gif";
+import Instagram1 from "@/public/sampleTabs/insta1.webp";
+import Instagram2 from "@/public/sampleTabs/insta2.webp";
+import Instagram3 from "@/public/sampleTabs/insta3.webp";
+import Instagram4 from "@/public/sampleTabs/insta4.webp";
+import Instagram5 from "@/public/sampleTabs/insta5.webp";
+import Instagram6 from "@/public/sampleTabs/insta6.webp";
+import Instagram7 from "@/public/sampleTabs/insta7.webp";
+import Instagram8 from "@/public/sampleTabs/insta8.webp";
+import Instagram9 from "@/public/sampleTabs/insta9.webp";
+import Instagram10 from "@/public/sampleTabs/insta10.webp";
+import Instagram11 from "@/public/sampleTabs/insta11.webp";
+import Instagram12 from "@/public/sampleTabs/insta12.webp";
+import Gif1 from "@/public/sampleTabs/gif1.gif";
 
 export function TabsDemo() {
   const tabs = [
@@ -142,6 +142,7 @@ export function TabsDemo() {
               height={250}
               width={250}
               className="object-contain"
+              unoptimized
             />
           </div>
         </>
