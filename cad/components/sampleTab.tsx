@@ -15,6 +15,11 @@ import Instagram10 from "@/public/sampleTabs/insta10.webp";
 import Instagram11 from "@/public/sampleTabs/insta11.webp";
 import Instagram12 from "@/public/sampleTabs/insta12.webp";
 import Gif1 from "@/public/sampleTabs/gif1.gif";
+import Gif2 from "@/public/sampleTabs/gif2.gif";
+import Gif3 from "@/public/sampleTabs/gif3.gif";
+import Gif4 from "@/public/sampleTabs/gif4.gif";
+import Gif5 from "@/public/sampleTabs/gif5.gif";
+import Gif6 from "@/public/sampleTabs/gif6.webp";
 
 export function TabsDemo() {
   const tabs = [
@@ -138,6 +143,46 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={Gif1}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+              unoptimized
+            />
+            <Image
+              src={Gif2}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+              unoptimized
+            />
+            <Image
+              src={Gif3}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+              unoptimized
+            />
+            <Image
+              src={Gif4}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+              unoptimized
+            />
+            <Image
+              src={Gif5}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+              unoptimized
+            />
+            <Image
+              src={Gif6}
               alt="Instagram post wave"
               height={250}
               width={250}
