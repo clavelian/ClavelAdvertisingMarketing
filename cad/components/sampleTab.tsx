@@ -27,6 +27,14 @@ import board4 from "@/public/sampleTabs/bboard4.webp";
 import board5 from "@/public/sampleTabs/bboard5.webp";
 import board6 from "@/public/sampleTabs/bboard6.webp";
 import board7 from "@/public/sampleTabs/bboard7.webp";
+import logo1 from "@/public/sampleTabs/logo1.png";
+import logo2 from "@/public/sampleTabs/logo2.png";
+import logo3 from "@/public/sampleTabs/logo3.png";
+import logo4 from "@/public/sampleTabs/logo4.png";
+import logo5 from "@/public/sampleTabs/logo5.png";
+import logo6 from "@/public/sampleTabs/logo6.webp";
+import logo7 from "@/public/sampleTabs/logo7.webp";
+import logo8 from "@/public/sampleTabs/logo8.webp";
 
 export function TabsDemo() {
   const tabs = [
@@ -140,7 +148,6 @@ export function TabsDemo() {
       content: (
         <>
           <div>
-            {/* <p className="text-base md:text-4xl flex pb-20 exclude:px-40 mobile:px-20 "> */}
             <p className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight pb-20">
               Say no more to boring graphics and hello to fun and eye-catching
               GIF designs
@@ -267,7 +274,70 @@ export function TabsDemo() {
       value: "content",
       content: (
         <>
-          <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center"></div>
+          <div>
+            <p className="bg-clip-text text-transparent text-center bg-gradient-to-b from-neutral-900 to-neutral-700 dark:from-neutral-600 dark:to-white text-2xl md:text-4xl lg:text-7xl font-sans py-2 md:py-10 relative z-20 font-bold tracking-tight pb-20">
+              Say no more to boring graphics and hello to fun and eye-catching
+              GIF designs
+            </p>
+          </div>
+          <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
+            <Image
+              src={logo1}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo2}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo3}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo4}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo5}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo6}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo7}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+            <Image
+              src={logo8}
+              alt="Instagram post wave"
+              height={250}
+              width={250}
+              className="object-contain"
+            />
+          </div>
         </>
       ),
     },
