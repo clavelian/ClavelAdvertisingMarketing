@@ -54,7 +54,7 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={Instagram1}
-              alt=""
+              alt="Instagram post wave"
               height={250}
               width={250}
               className="object-contain"
@@ -156,11 +156,7 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={Gif1}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -168,11 +164,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif2}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -180,11 +172,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif3}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -192,11 +180,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif4}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -204,11 +188,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif5}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -216,11 +196,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif6}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -242,77 +218,49 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={board1}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board2}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board3}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board4}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board5}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board6}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board7}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
@@ -335,88 +283,56 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={logo1}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo2}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo3}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo4}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo5}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo6}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo7}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo8}
-<<<<<<< HEAD
-              alt=""
-=======
               alt="Instagram post wave"
->>>>>>> a0744dc4bd394b6dc12f2a2e9bea1ff31e28d29f
               height={250}
               width={250}
               className="object-contain"
