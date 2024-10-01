@@ -1,5 +1,5 @@
 import { NavigationMenuDemo } from "@/components/navmenu";
-
+import Footer from "@/components/footer";
 const Aboutme = () => {
   return (
     <>
@@ -11,6 +11,7 @@ const Aboutme = () => {
       <main>
         <p className="text-4xl">This is the page for About</p>
       </main>
+      <Footer />
     </>
   );
 };
