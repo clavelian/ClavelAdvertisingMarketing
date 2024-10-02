@@ -156,7 +156,7 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={Gif1}
-              alt=""
+              alt="Instagram post wave"
               height={250}
               width={250}
               className="object-contain"
