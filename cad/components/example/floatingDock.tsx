@@ -1,7 +1,7 @@
 // "use client";
 
 // import React from "react";
-// import { FloatingDock } from "@/components/ui/floating-doc";
+// import { FloatingDock } from "@/components/ui/floating-dock";
 // import {
 //   IconBrandLinkedin,
 //   IconBrandFacebook,
