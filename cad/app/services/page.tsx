@@ -1,4 +1,5 @@
 import { NavigationMenuDemo } from "@/components/navmenu";
+import Footer from "@/components/footer";
 
 const Service = () => {
   return (
@@ -8,9 +9,14 @@ const Service = () => {
           <NavigationMenuDemo />
         </span>
       </nav>
-      <main>
-        <p className="text-4xl">This is the page for services</p>
+      <main className="h-[120vh] items-center justify-center flex">
+        <p className="text-4xl flex items-center justify-center">
+          This is the page for services
+        </p>
       </main>
+      <div className="flex items-end justify-end bottom-0">
+        <Footer />
+      </div>
     </>
   );
 };

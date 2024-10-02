@@ -4,6 +4,7 @@ import { NavigationMenuDemo } from "../components/navmenu";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
 import { HeroHighlightDemo } from "../components/hero";
 import { AnimatedModalDemo } from "@/components/animeModal";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <div className=" flex items-center justify-center">
         <StickyScrollRevealDemo />
       </div>
+      <Footer />
     </>
   );
 }
