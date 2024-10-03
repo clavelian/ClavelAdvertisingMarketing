@@ -164,7 +164,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif2}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
@@ -172,7 +172,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif3}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
@@ -180,7 +180,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif4}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
@@ -188,7 +188,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif5}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
@@ -196,7 +196,7 @@ export function TabsDemo() {
             />
             <Image
               src={Gif6}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
@@ -218,49 +218,49 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={board1}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board2}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board3}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board4}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board5}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board6}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={board7}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
@@ -283,56 +283,56 @@ export function TabsDemo() {
           <div className="grid exclude:grid-cols-3 mobile:grid-cols-2 gap-7 p-4 justify-center items-center">
             <Image
               src={logo1}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo2}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo3}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo4}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo5}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo6}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo7}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
             />
             <Image
               src={logo8}
-              alt="Instagram post wave"
+              alt=""
               height={250}
               width={250}
               className="object-contain"
