@@ -39,7 +39,7 @@ export function HeroHighlightDemo() {
           <span className="text-base">
             Focus on what matters with seamless support.
           </span>
-          <span className="w-full h-[6rem] bottom-0 bg-gray-700 dark:bg-gray-900 text-white flex items-center justify-center pt-6">
+          <span className="w-full h-[6rem] text-white flex items-center justify-center pt-6">
             <div className="bg-transparent rounded-md hover:bg-blue-600 transition ease-in-out delay-150 w-[5rem] h-[5rem] justify-center items-center flex">
               <IconBrandFacebook />
             </div>
@@ -52,18 +52,6 @@ export function HeroHighlightDemo() {
           </span>
         </motion.h1>
       </HeroHighlight>
-
-      <div className="w-full h-[6rem] bottom-0 bg-gray-700 dark:bg-gray-900 text-white flex items-center justify-center">
-        <div className="bg-transparent rounded-md hover:bg-blue-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
-          <IconBrandFacebook />
-        </div>
-        <div className="bg-transparent rounded-md hover:bg-black transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
-          <IconBrandTiktok />
-        </div>
-        <div className="bg-transparent rounded-md hover:bg-blue-400 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
-          <IconBrandTwitter />
-        </div>
-      </div>
     </>
   );
 }
