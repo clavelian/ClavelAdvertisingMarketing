@@ -5,6 +5,7 @@ import { StickyScrollRevealDemo } from "../components/stickyScroll";
 import { HeroHighlightDemo } from "../components/hero";
 import { AnimatedModalDemo } from "@/components/animeModal";
 import Footer from "@/components/footer";
+import { ToastSimple } from "@/components/toast";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       {/* =================body section================= */}
       <main className="h-[55rem]">
         <HeroHighlightDemo />
+        <ToastSimple />
       </main>
       <div className="fixed bottom-[10rem] right-[6rem]">
         <aside className=""></aside>
