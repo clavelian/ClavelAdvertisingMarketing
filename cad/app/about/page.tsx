@@ -8,8 +8,10 @@ const Aboutme = () => {
           <NavigationMenuDemo />
         </span>
       </nav>
-      <main>
-        <p className="text-4xl">This is the page for About</p>
+      <main className="items-center justify-center">
+        <div className="text-4xl flex items-center justify-center pb-20">
+          This space is for About me page
+        </div>
       </main>
       <Footer />
     </>
