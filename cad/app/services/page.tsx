@@ -10,7 +10,9 @@ const Service = () => {
           <NavigationMenuDemo />
         </span>
       </nav>
-      <TimelineDemo />
+      <main className="px-4">
+        <TimelineDemo />
+      </main>
       {/* <main className="h-[120vh] items-center justify-center pt-40">
         <p className="text-4xl flex items-center justify-center">
           What we believe
@@ -24,7 +26,7 @@ const Service = () => {
           business.
         </p>
       </main> */}
-      <div className="flex items-end justify-end bottom-0">
+      <div className="flex items-end justify-end bottom-0 pt-96">
         <Footer />
       </div>
     </>
