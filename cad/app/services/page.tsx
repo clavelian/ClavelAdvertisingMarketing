@@ -1,5 +1,6 @@
 import { NavigationMenuDemo } from "@/components/navmenu";
 import Footer from "@/components/footer";
+import { TimelineDemo } from "./timeline";
 
 const Service = () => {
   return (
@@ -9,7 +10,8 @@ const Service = () => {
           <NavigationMenuDemo />
         </span>
       </nav>
-      <main className="h-[120vh] items-center justify-center pt-40">
+      <TimelineDemo />
+      {/* <main className="h-[120vh] items-center justify-center pt-40">
         <p className="text-4xl flex items-center justify-center">
           What we believe
         </p>
@@ -21,7 +23,7 @@ const Service = () => {
           graphic design services, we are dedicated to driving results for your
           business.
         </p>
-      </main>
+      </main> */}
       <div className="flex items-end justify-end bottom-0">
         <Footer />
       </div>
