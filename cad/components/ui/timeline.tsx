@@ -37,15 +37,17 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       className="w-full bg-bgcolor-50 dark:bg-bgcolor-100 font-sans exclude:px-10"
       ref={containerRef}
     >
-      <div className="max-w-7xl mx-auto py-20 px-4 exclude:px-10">
-        <h2 className="text-lg exclude:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-          Changelog from my journey
-        </h2>
-        <p className="text-neutral-700 dark:text-neutral-300 text-sm exclude:text-base max-w-sm">
-          Clavel Advertising Marketing understands the demands of a thriving
-          agency/company. Don’t let administrative tasks hold you back. Our
-          virtual assistants become an extension of your team, handling:
-        </p>
+      <div className="flex items-center justify-center">
+        <div className="max-w-7xl mx-auto py-20 px-4 exclude:px-10">
+          <h2 className="text-2xl exclude:text-4xl mb-4 text-black dark:text-white max-w-4xl mobile:justify-center items-center flex">
+            Our Services
+          </h2>
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm exclude:text-base max-w-sm">
+            Clavel Advertising Marketing understands the demands of a thriving
+            agency/company. Don’t let administrative tasks hold you back. Our
+            virtual assistants become an extension of your team, handling:
+          </p>
+        </div>
       </div>
 
       <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
