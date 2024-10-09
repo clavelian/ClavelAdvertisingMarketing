@@ -1,5 +1,7 @@
 import { NavigationMenuDemo } from "@/components/navmenu";
 import Footer from "@/components/footer";
+import { WobbleCardDemo } from "./wobble";
+
 const Aboutme = () => {
   return (
     <>
@@ -11,6 +13,9 @@ const Aboutme = () => {
       <main className="items-center justify-center">
         <div className="text-4xl flex items-center justify-center pb-20">
           This space is for About me page
+        </div>
+        <div>
+          <WobbleCardDemo />
         </div>
       </main>
       <Footer />
