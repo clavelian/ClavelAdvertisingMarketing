@@ -10,7 +10,11 @@ import {
   IconMail,
   IconBrandTiktok,
   IconBrandTwitter,
+  IconBrandFacebookFilled,
+  IconBrandTwitterFilled,
+  IconBrandTiktokFilled,
 } from "@tabler/icons-react";
+import Fb from "@/public/fb.svg";
 
 export function HeroHighlightDemo() {
   return (
@@ -40,13 +44,13 @@ export function HeroHighlightDemo() {
             Focus on what matters with seamless support.
           </span>
           <span className="w-full h-[6rem] text-white flex items-center justify-center pt-6">
-            <div className="bg-transparent rounded-md hover:bg-blue-600 transition ease-in-out delay-150 w-[5rem] h-[5rem] justify-center items-center flex">
+            <div className="bg-blue-600 hover:bg-blue-600 transition ease-in-out delay-150 w-[3rem] h-[3rem] justify-center items-center flex">
               <IconBrandFacebook />
             </div>
-            <div className="bg-transparent rounded-md hover:bg-black transition ease-in-out delay-150 w-[5rem] h-[5rem] justify-center items-center flex">
+            <div className="bg-black transition ease-in-out delay-150 w-[3rem] h-[3rem] justify-center items-center flex">
               <IconBrandTiktok />
             </div>
-            <div className="bg-transparent rounded-md hover:bg-blue-400 transition ease-in-out delay-150 w-[5rem] h-[5rem] justify-center items-center flex">
+            <div className="bg-blue-500 transition ease-in-out delay-150 w-[3rem] h-[3rem] justify-center items-center flex">
               <IconBrandTwitter />
             </div>
           </span>

@@ -3,7 +3,6 @@ import { NavigationMenuDemo } from "../components/navmenu";
 // import FlipWordsDemo from "../components/flipwords";
 import { StickyScrollRevealDemo } from "../components/stickyScroll";
 import { HeroHighlightDemo } from "../components/hero";
-import { AnimatedModalDemo } from "@/components/animeModal";
 import Footer from "@/components/footer";
 
 export default function Home() {
