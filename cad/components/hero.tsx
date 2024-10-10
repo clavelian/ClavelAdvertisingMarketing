@@ -10,13 +10,7 @@ import {
   IconMail,
   IconBrandTiktok,
   IconBrandTwitter,
-  IconBrandFacebookFilled,
-  IconBrandTwitterFilled,
-  IconBrandTiktokFilled,
 } from "@tabler/icons-react";
-import Fb from "@/public/fb.svg";
-
-const FbIcon = () => {};
 
 export function HeroHighlightDemo() {
   return (
