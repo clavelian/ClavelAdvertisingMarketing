@@ -16,6 +16,8 @@ import {
 } from "@tabler/icons-react";
 import Fb from "@/public/fb.svg";
 
+const FbIcon = () => {};
+
 export function HeroHighlightDemo() {
   return (
     <>
@@ -40,19 +42,22 @@ export function HeroHighlightDemo() {
             Chaos to Clarity <br />
           </Highlight>
           Clavel Advertising Marketing’s and VA Services <br />
-          <span className="text-base">
+          <span className="text-base font-medium">
             Focus on what matters with seamless support.
-          </span>
-          <span className="w-full h-[6rem] text-white flex items-center justify-center pt-6">
-            <div className="bg-blue-600 hover:bg-blue-600 transition ease-in-out delay-150 w-[3rem] h-[3rem] justify-center items-center flex">
+            {/* </span>
+          <span className="w-full h-[6rem] text-white flex items-center justify-center pt-20 gap-1">
+            <div className="bg-blue-700 w-[4rem] h-[4rem] justify-center items-center flex">
               <IconBrandFacebook />
             </div>
-            <div className="bg-black transition ease-in-out delay-150 w-[3rem] h-[3rem] justify-center items-center flex">
-              <IconBrandTiktok />
-            </div>
-            <div className="bg-blue-500 transition ease-in-out delay-150 w-[3rem] h-[3rem] justify-center items-center flex">
+            <div className="bg-blue-400 transition ease-in-out delay-150 w-[4rem] h-[4rem] justify-center items-center flex">
               <IconBrandTwitter />
             </div>
+            <div className="bg-orange-500 transition ease-in-out delay-150 w-[4rem] h-[4rem] justify-center items-center flex">
+              <IconBrandInstagram />
+            </div>
+            <div className="bg-slate-900 ease-in-out delay-150 w-[4rem] h-[4rem] justify-center items-center flex">
+              <IconBrandTiktok />
+            </div> */}
           </span>
         </motion.h1>
       </HeroHighlight>
