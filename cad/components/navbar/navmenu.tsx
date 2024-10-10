@@ -3,10 +3,10 @@
 import * as React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import camLogo from "../public/logo.png";
-import camFullLogo from "../public/CAM1.png";
-import { ModeToggle } from "../components/ui/lnd";
-import { AnimatedModalDemo } from "@/components/animeModal";
+import camLogo from "@/public/logo.png";
+import camFullLogo from "@/public/CAM1.png";
+import { ModeToggle } from "../ui/lnd";
+import { AnimatedModalDemo } from "@/components/navbar/animeModal";
 
 import { cn } from "@/lib/utils";
 import {
@@ -59,7 +59,7 @@ import {
 
 export function NavigationMenuDemo() {
   return (
-    <div className="flex justify-center items-center ">
+    <div className="flex justify-center items-center">
       <Link href="/">
         <span className="pr-6 mobile:pr-4 mobile:justify-start mobile:pl-16">
           <Image
@@ -85,7 +85,9 @@ export function NavigationMenuDemo() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger>Get started</NavigationMenuTrigger>
+            <NavigationMenuTrigger className="bg-transparent">
+              Get started
+            </NavigationMenuTrigger>
             <NavigationMenuContent>
               <ul className="grid p-4 mobile:p-4 w-[300px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
                 <ListItem href="/about" title="About Clavel Marketing">
@@ -100,7 +102,9 @@ export function NavigationMenuDemo() {
           <NavigationMenuItem>
             <span className="mobile:">
               <Link href="/samples">
-                <NavigationMenuTrigger>Samples</NavigationMenuTrigger>
+                <NavigationMenuTrigger className="bg-transparent">
+                  Samples
+                </NavigationMenuTrigger>
               </Link>
             </span>
             {/* <NavigationMenuContent>

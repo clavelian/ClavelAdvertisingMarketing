@@ -1,5 +1,5 @@
 import { TabsDemo } from "./sampleTab";
-import { NavigationMenuDemo } from "@/components/navmenu";
+import { NavigationMenuDemo } from "@/components/navbar/navmenu";
 
 const Samples = () => {
   return (

@@ -1,4 +1,4 @@
-import { NavigationMenuDemo } from "@/components/navmenu";
+import { NavigationMenuDemo } from "@/components/navbar/navmenu";
 import Footer from "@/components/footer";
 import { TimelineDemo } from "./timeline";
 
