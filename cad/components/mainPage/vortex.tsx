@@ -11,9 +11,9 @@ export function VortexDemoSecond() {
       <div className="w-full h-full overflow-hidden fixed">
         <Vortex
           backgroundColor="black"
-          rangeY={800}
-          particleCount={500}
-          baseHue={120}
+          rangeY={1000}
+          particleCount={600}
+          baseHue={160}
           className="flex items-center flex-col justify-center px-2 exclude:px-10  py-4 w-full h-full"
         >
           <span className="top-1 fixed pt-2">
