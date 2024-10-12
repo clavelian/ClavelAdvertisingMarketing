@@ -12,11 +12,11 @@ export function VortexDemoSecond() {
         <Vortex
           backgroundColor="black"
           rangeY={1000}
-          particleCount={600}
+          particleCount={900}
           baseHue={120}
           className="flex items-center flex-col justify-center px-2 exclude:px-10  py-4 w-full h-full"
         >
-          <span className="top-1 fixed pt-2">
+          <span className="top-1 fixed pt-3">
             <NavigationMenuDemo />
           </span>
           <main className="items-center justify-center">
