@@ -13,7 +13,7 @@ export function VortexDemoSecond() {
           backgroundColor="black"
           rangeY={1000}
           particleCount={600}
-          baseHue={160}
+          baseHue={120}
           className="flex items-center flex-col justify-center px-2 exclude:px-10  py-4 w-full h-full"
         >
           <span className="top-1 fixed pt-2">
