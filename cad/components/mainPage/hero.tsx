@@ -6,7 +6,7 @@ export function HeroHighlight() {
     <>
       <div className="pb-4 justify-center items-center flex">
         <span className="text-4xl tablet:text-3xl mobile:text-2xl">From</span>{" "}
-        <Highlight className="text-black dark:text-white text-6xl font-semibold mobile:text-4xl tablet:text-5xl">
+        <Highlight className="text-white text-6xl font-semibold mobile:text-4xl tablet:text-5xl">
           Chaos to Clarity <br />
         </Highlight>
       </div>{" "}
