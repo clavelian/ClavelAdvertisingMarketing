@@ -2,6 +2,7 @@
 import Image from "next/image";
 import React from "react";
 import { WobbleCard } from "@/components/ui/wobble-card";
+import Rose from "@/public/rose.jpg";
 
 export function WobbleCardDemo() {
   return (
@@ -12,15 +13,18 @@ export function WobbleCardDemo() {
       >
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Gippity AI powers the entire universe
+            Our commitment
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+            From our products and services to our relationships with customers,
+            partners, and clients, we uphold a standard of excellence. At C3,
+            our commitment runs deep, shaping every aspect of our operations. We
+            are steadfast in our dedication to our core principles, which serve
+            as the foundation of our identity.
           </p>
         </div>
         <Image
-          src="/linear.webp"
+          src={""}
           width={500}
           height={500}
           alt="linear demo image"
@@ -29,25 +33,35 @@ export function WobbleCardDemo() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white">
-          No shirt, no shoes, no weapons.
+          Our vision
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-          If someone yells “stop!”, goes limp, or taps out, the fight is over.
+          Our vision is to grow worldwide as we help our client&apos;s
+          businesses grow by consistently delivering exceptional and
+          personalized services. Whether you’re starting a new venture or poised
+          for expansion, our commitment is to collaborate and push you towards
+          your goals.
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 exclude:col-span-3 bg-blue-900 min-h-[500px] exclude:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm tablet:max-w-lg  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white">
-            Signup for blazing-fast cutting-edge state of the art Gippity AI
-            wrapper today!
+            The Face of C3
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
-            With over 100,000 mothly active bot users, Gippity AI is the most
-            popular AI platform for developers.
+            At C3, we&apos;re more than just a name. We&apos;re a team of
+            passionate individuals committed to making a difference in many
+            businesses. Our mission is to provide creative and exceptional
+            service, and we&apos;re dedicated to serving our community,
+            customers, and partners with integrity, passion, and a personal
+            touch.
+            <br />
+            <br />
+            Rose Ann Clavel | Founder of C3
           </p>
         </div>
         <Image
-          src="/linear.webp"
+          src={Rose}
           width={500}
           height={500}
           alt="linear demo image"
