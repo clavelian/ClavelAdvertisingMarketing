@@ -26,7 +26,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef,
-    offset: ["start 10%", "end 50%"],
+    offset: ["start 10%", "end 70%"],
   });
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
@@ -39,13 +39,13 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="flex items-center justify-center">
         <div className="max-w-7xl mx-auto py-20 px-4 exclude:px-10">
-          <h2 className="text-2xl exclude:text-4xl mb-4 text-black dark:text-white max-w-4xl mobile:justify-center items-center flex">
+          <h2 className="text-2xl exclude:text-4xl mb-4 text-black dark:text-white max-w-4xl mobile:justify-center justify-center items-center flex pb-10">
             Our Services
           </h2>
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm exclude:text-base max-w-sm">
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm exclude:text-base mobile:max-w-sm max-w-lg">
             Clavel Advertising Marketing understands the demands of a thriving
-            agency/company. Don’t let administrative tasks hold you back. Our
-            virtual assistants become an extension of your team, handling:
+            agency/company. Don&apos;t let administrative tasks hold you back.
+            Our virtual assistants become an extension of your team, handling:
           </p>
         </div>
       </div>
