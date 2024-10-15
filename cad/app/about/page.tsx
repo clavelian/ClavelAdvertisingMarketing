@@ -11,9 +11,9 @@ const Aboutme = () => {
         </span>
       </nav>
       <main className="items-center justify-center">
-        <div className="text-4xl flex items-center justify-center pb-20">
+        {/* <div className="text-4xl flex items-center justify-center pb-20">
           This space is for About me page
-        </div>
+        </div> */}
         <div>
           <WobbleCardDemo />
         </div>
