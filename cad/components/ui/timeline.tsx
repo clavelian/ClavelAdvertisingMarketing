@@ -38,7 +38,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
       ref={containerRef}
     >
       <div className="flex items-center justify-center">
-        <div className="max-w-7xl mx-auto py-20 px-4 exclude:px-10">
+        <div className="max-w-7xl mx-auto py-10 px-4 exclude:px-10">
           <h2 className="text-2xl exclude:text-4xl mb-4 text-black dark:text-white max-w-4xl mobile:justify-center justify-center items-center flex pb-10">
             Our Services
           </h2>
@@ -57,16 +57,16 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             className="flex justify-start pt-10 exclude:pt-40 exclude:gap-10"
           >
             {/* circle */}
-            <div className="sticky flex flex-col exclude:flex-row z-40 items-center top-40 self-start max-w-xs exclude:max-w-sm exclude:w-full">
+            <div className="sticky flex flex-col exclude:flex-row z-40 items-center top-40 self-start max-w-xs exclude:max-w-sm exclude:w-full mobile:hidden">
+              {/* → */}
               <div className="h-10 absolute left-3 exclude:left-3 w-10 rounded-full bg-slate-600 dark:bg-slate-300 flex items-center justify-center">
                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
               </div>
               {/* circle font */}
-              <h3 className="hidden exclude:block text-xl exclude:pl-20 exclude:text-3xl font-bold text-neutral-500 dark:text-neutral-500 ">
+              <h3 className="hidden exclude:block text-xl exclude:pl-20 exclude:text-3xl font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
               </h3>
             </div>
-
             <div className="relative pl-20 pr-4 exclude:pl-4 w-full">
               <h3 className="exclude:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.title}
@@ -86,7 +86,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
               height: heightTransform,
               opacity: opacityTransform,
             }}
-            className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+            className="absolute inset-x-0 top-0  w-[10px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
           />
         </div>
       </div>
