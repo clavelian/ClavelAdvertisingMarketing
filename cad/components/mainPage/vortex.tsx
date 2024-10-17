@@ -19,7 +19,7 @@ export function VortexDemoSecond() {
           <span className="top-0 fixed pt-3 mobile:pt-1 tablet:pt-3">
             <NavigationMenuDemo />
           </span>
-          <main className="items-center justify-center mobile:pt-2 tablet:pt-2">
+          <main className="items-center justify-center mobile:pt-2 tablet:pt-2 -z-10">
             <HeroHighlight />
           </main>
         </Vortex>
