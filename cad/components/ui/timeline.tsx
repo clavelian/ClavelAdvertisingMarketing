@@ -39,13 +39,17 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="flex items-center justify-center">
         <div className="max-w-7xl mx-auto py-10 px-4 exclude:px-10">
-          <h2 className="text-2xl exclude:text-4xl mb-4 text-black dark:text-white max-w-4xl mobile:justify-center justify-center items-center flex pb-10">
+          <h2 className="text-2xl exclude:text-4xl mb-4 text-black dark:text-white mobile:justify-center justify-center items-center font-semibold pb-10 flex">
             Our Services
           </h2>
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm exclude:text-base mobile:max-w-sm max-w-lg">
-            Clavel Advertising Marketing understands the demands of a thriving
-            agency/company. Don&apos;t let administrative tasks hold you back.
-            Our virtual assistants become an extension of your team, handling:
+          <p className="text-neutral-700 dark:text-neutral-300 text-sm exclude:text-base mobile:max-w-sm max-w-none text-justify">
+            At Clavel Advertising Marketing, we believe that every brand has a
+            unique story to tell. Our exceptional content writing and graphic
+            design services help you share your story in the most engaging and
+            impactful way possible. We understand the demands of a thriving
+            agency/company, which is why our virtual assistants are here to
+            handle administrative tasks, freeing you up to focus on what you do
+            best.
           </p>
         </div>
       </div>
