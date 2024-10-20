@@ -8,6 +8,7 @@ import {
   IconBrandTiktok,
   IconBrandTwitter,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
