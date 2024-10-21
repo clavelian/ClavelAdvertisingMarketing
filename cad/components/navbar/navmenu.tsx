@@ -85,7 +85,7 @@ export function NavigationMenuDemo() {
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>
-            <NavigationMenuTrigger className="bg-transparent text-white">
+            <NavigationMenuTrigger className="navUl bg-transparent text-base">
               Get started
             </NavigationMenuTrigger>
             <NavigationMenuContent>
@@ -102,7 +102,8 @@ export function NavigationMenuDemo() {
           <NavigationMenuItem>
             <span className="mobile:">
               <Link href="/samples">
-                <NavigationMenuTrigger className="bg-transparent text-white">
+                <NavigationMenuTrigger className="bg-transparent navUl text-base">
+                  {/* drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.3)] */}
                   Samples
                 </NavigationMenuTrigger>
               </Link>
