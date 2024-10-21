@@ -8,6 +8,7 @@ import {
   IconBrandTiktok,
   IconBrandTwitter,
 } from "@tabler/icons-react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -16,15 +17,23 @@ const Footer = () => {
         {/* <div className="flex justify-center items-center">zxczxc</div> */}
 
         {/* socmed */}
-        <div className="bg-transparent rounded-md hover:bg-blue-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
-          <IconBrandFacebook />
-        </div>
-        <div className="bg-transparent rounded-md hover:bg-slate-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
-          <IconBrandTiktok />
-        </div>
-        <div className="bg-transparent rounded-md hover:bg-blue-400 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
-          <IconBrandTwitter />
-        </div>
+        <Link href="https://www.facebook.com/ClavelAdvertisingMarketing">
+          <div className="bg-transparent rounded-md hover:bg-blue-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+            <IconBrandFacebook />
+          </div>
+        </Link>
+
+        <Link href="#">
+          <div className="bg-transparent rounded-md hover:bg-slate-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+            <IconBrandTiktok />
+          </div>
+        </Link>
+
+        <Link href="#">
+          <div className="bg-transparent rounded-md hover:bg-blue-400 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+            <IconBrandTwitter />
+          </div>
+        </Link>
       </div>
     </>
   );
