@@ -77,4 +77,10 @@
   .no-visible-scrollbar::-webkit-scrollbar {
     display: none;
   }
+
+  .navUl {
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-fill-color: hsl(178 100% 40%);
+  }
 }
