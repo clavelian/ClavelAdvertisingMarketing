@@ -13,7 +13,7 @@ export function WobbleCardDemo() {
         className="justify-center items-center"
       >
         <div className="max-w-xs">
-          <h2 className="text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white">
+          <h2 className="text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white mobile:text-xl">
             Our commitment
           </h2>
           <p className="mt-4 text-left  text-base/6 text-neutral-200">
@@ -34,7 +34,7 @@ export function WobbleCardDemo() {
         {/* grayscale filter */}
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
-        <h2 className="max-w-80  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white">
+        <h2 className="max-w-80  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white mobile:text-xl">
           Our vision
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
@@ -47,7 +47,7 @@ export function WobbleCardDemo() {
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 exclude:col-span-3 bg-blue-900 min-h-[500px] exclude:min-h-[600px] xl:min-h-[300px]">
         <div className="max-w-sm">
-          <h2 className="max-w-sm tablet:max-w-lg  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white">
+          <h2 className="max-w-sm tablet:max-w-lg  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white mobile:text-xl">
             The Face of C3
           </h2>
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
@@ -59,7 +59,7 @@ export function WobbleCardDemo() {
             touch.
             <br />
             <br />
-            Rose Ann Clavel | Founder of C3
+            <p className="font-semibold">Rose Ann Clavel | Founder of C3</p>
           </p>
         </div>
         {/* <Image
@@ -75,7 +75,7 @@ export function WobbleCardDemo() {
           width={300}
           height={300}
           alt="imageDP"
-          className="absolute rounded-full tablet:-right-[-5%] tablet:-top-[-20%] smscreen:hidden wscreen:hidden"
+          className="absolute rounded-full tablet:-right-[-5%] tablet:-top-[-20%] smscreen:hidden wscreen:top-16 right-16 exclude:rounded-bl-full"
           // -right-10 tablet:-right-[10%] exclude:-right-[10%] -bottom-1
         />
       </WobbleCard>
