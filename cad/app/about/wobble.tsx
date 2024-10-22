@@ -75,7 +75,7 @@ export function WobbleCardDemo() {
           width={300}
           height={300}
           alt="imageDP"
-          className="absolute rounded-full tablet:-right-[-5%] tablet:-top-[-20%] smscreen:hidden wscreen:hidden"
+          className="absolute rounded-full tablet:-right-[-5%] tablet:-top-[-20%] smscreen:hidden wscreen:top-16 right-16 exclude:rounded-bl-full"
           // -right-10 tablet:-right-[10%] exclude:-right-[10%] -bottom-1
         />
       </WobbleCard>
