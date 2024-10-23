@@ -40,9 +40,9 @@ export function WobbleCardDemo() {
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200">
           Our vision is to grow worldwide as we help our client&apos;s
           businesses grow by consistently delivering exceptional and
-          personalized services. Whether you’re starting a new venture or poised
-          for expansion, our commitment is to collaborate and push you towards
-          your goals.
+          personalized services. Whether you&apos;re starting a new venture or
+          poised for expansion, our commitment is to collaborate and push you
+          towards your goals.
         </p>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 exclude:col-span-3 bg-blue-900 min-h-[500px] exclude:min-h-[600px] xl:min-h-[300px]">
