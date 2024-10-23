@@ -59,7 +59,9 @@ export function WobbleCardDemo() {
             touch.
             <br />
             <br />
-            <p className="font-semibold">Rose Ann Clavel | Founder of C3</p>
+            <span className="font-semibold">
+              Rose Ann Clavel | Founder of C3
+            </span>
           </p>
         </div>
         {/* <Image
