@@ -78,7 +78,7 @@ export function WobbleCardDemo() {
           width={300}
           height={300}
           alt="imageDP"
-          className="absolute rounded-full tablet:-right-[-5%] tablet:-top-[-13%] smscreen:-bottom-1 smscreen:-top-[-20%] wscreen:top-16 right-16 exclude:rounded-bl-full mobile:items-center justify-center mobile:flex mobile:pt-3"
+          className="absolute rounded-full tablet:-right-[-5%] exclude:-top-[-13%] smscreen:-bottom-1 smscreen:-top-[-20%] wscreen:top-16 right-16 exclude:rounded-bl-full mobile:items-center justify-center mobile:flex mobile:pt-3"
 
           // mobile:-right-[-20%] mobile:bottom-6"
           // -right-10 tablet:-right-[10%] exclude:-right-[10%] -bottom-1
