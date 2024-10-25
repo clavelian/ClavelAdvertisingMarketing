@@ -7,9 +7,10 @@ import Logo from "@/public/logo.png";
 
 export function WobbleCardDemo() {
   return (
-    <div className="grid grid-cols-1 exclude:grid-cols-3 gap-4 max-w-7xl mx-auto w-full px-8">
+    <div className="grid grid-cols-1 exclude:grid-cols-1 gap-4 max-w-7xl mx-auto w-full px-6">
+      {/* DO NOT BE CONFUSED */}
       <WobbleCard
-        containerClassName="col-span-1 exclude:col-span-2 h-full bg-pink-800 min-h-[500px] exclude:min-h-[300px]"
+        containerClassName="exclude:col-span-2 h-full bg-pink-800 min-h-[200px]"
         className="justify-center items-center"
       >
         <div className="max-w-md">
@@ -28,7 +29,7 @@ export function WobbleCardDemo() {
           src={Logo}
           width={100}
           height={100}
-          alt="linear demo image"
+          alt="logo image"
           className="absolute -right-4 exclude:-right-[1%] -bottom-10 object-contain rounded-2xl mobile:-right-2 mobile:-bottom-6"
         />
         {/* grayscale filter */}
@@ -45,7 +46,7 @@ export function WobbleCardDemo() {
           towards your goals.
         </p>
       </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 exclude:col-span-3 bg-blue-900 min-h-[500px] exclude:min-h-[600px] xl:min-h-[300px]">
+      <WobbleCard containerClassName="col-span-1 exclude:col-span-3 bg-blue-900 min-h-[500px] exclude:min-h-[400px] mobile:min-h-[650px]">
         <div className="max-w-sm">
           <h2 className="max-w-sm tablet:max-w-lg  text-left text-balance text-base tablet:text-xl exclude:text-3xl font-semibold tracking-[-0.015em] text-white mobile:text-xl">
             The Face of C3
@@ -72,29 +73,17 @@ export function WobbleCardDemo() {
           className="absolute object-contain mobile:hidden right-9 top-12 rounded-full tablet:-right-[10%] tablet:-top-[-10%]"
           // -right-10 tablet:-right-[10%] exclude:-right-[10%] -bottom-1
         /> */}
-        <DisplayImage />
         <Image
           src={Rose}
           width={300}
           height={300}
           alt="imageDP"
-          className="absolute rounded-full tablet:-right-[-5%] tablet:-bottom-1 tablet:-top-[-20%] smscreen:hidden wscreen:top-16 right-16 exclude:rounded-bl-full"
+          className="absolute rounded-full tablet:-right-[-5%] exclude:-top-[-13%] smscreen:-bottom-1 smscreen:-top-[-20%] wscreen:top-16 right-16 exclude:rounded-bl-full mobile:items-center justify-center mobile:flex mobile:pt-3"
+
+          // mobile:-right-[-20%] mobile:bottom-6"
           // -right-10 tablet:-right-[10%] exclude:-right-[10%] -bottom-1
         />
       </WobbleCard>
     </div>
   );
 }
-//this one when right click doesnt show open in new tab etc
-const DisplayImage = () => {
-  return (
-    <div
-      className="display absolute w-1/4 h-1/4 right-1 z-10"
-      style={{
-        backgroundImage: "url(/logo.png)",
-        backgroundSize: "30%",
-        backgroundRepeat: "no-repeat",
-      }}
-    ></div>
-  );
-};
