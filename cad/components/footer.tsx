@@ -18,19 +18,20 @@ const Footer = () => {
 
         {/* socmed */}
         <Link href="https://www.facebook.com/ClavelAdvertisingMarketing">
-          <div className="bg-transparent rounded-md hover:bg-blue-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+          <div className="rounded-md dark:hover:bg-blue-600 bg-blue-600 dark:bg-transparent hover:-translate-y-2 dark:transition hover:scale-125 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+            {/* -translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 */}
             <IconBrandFacebook />
           </div>
         </Link>
 
         <Link href="#">
-          <div className="bg-transparent rounded-md hover:bg-slate-600 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+          <div className="rounded-md dark:hover:bg-slate-600 bg-black dark:bg-transparent hover:-translate-y-2 dark:transition hover:scale-125  transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
             <IconBrandTiktok />
           </div>
         </Link>
 
         <Link href="#">
-          <div className="bg-transparent rounded-md hover:bg-blue-400 transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
+          <div className="bg-transparent rounded-md dark:hover:bg-blue-400 bg-blue-400 dark:bg-transparent hover:-translate-y-2 dark:transition hover:scale-125  transition ease-in-out delay-150 w-[2rem] h-[2rem] justify-center items-center flex">
             <IconBrandTwitter />
           </div>
         </Link>
