@@ -22,9 +22,6 @@ export default function Home() {
         <aside className=""></aside>
       </div>
       <div className=" flex items-center justify-center"></div>
-      <footer className="w-full fixed bottom-0">
-        <Footer />
-      </footer>
     </>
   );
 }
