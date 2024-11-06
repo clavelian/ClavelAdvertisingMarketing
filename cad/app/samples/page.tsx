@@ -1,5 +1,6 @@
 import { TabsDemo } from "./sampleTab";
 import { NavigationMenuDemo } from "@/components/navbar/navmenu";
+import Footer from "@/components/footer";
 
 const Samples = () => {
   return (
@@ -10,6 +11,9 @@ const Samples = () => {
         </span>
       </nav>
       <TabsDemo />
+      <footer className="w-full absolute -bottom-full">
+        <Footer />
+      </footer>
     </>
   );
 };
