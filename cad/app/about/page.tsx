@@ -14,11 +14,13 @@ const Aboutme = () => {
         {/* <div className="text-4xl flex items-center justify-center pb-20">
           This space is for About me page
         </div> */}
-        <div>
+        <div className="pb-2">
           <WobbleCardDemo />
         </div>
       </main>
-      <Footer />
+      <footer className="p-1">
+        <Footer />
+      </footer>
     </>
   );
 };

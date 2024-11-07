@@ -11,13 +11,13 @@ import Logo from "@/public/logo.png";
 const Footer = () => {
   return (
     <>
-      <div className="w-full h-[4rem] bg-transparent text-white flex items-center gap-2 wscreen:px-40 smscreen:px-32 tablet:px-20 mobile:px-4">
+      <div className=" h-[4rem] bg-transparent text-white flex justify-center items-center gap-2">
         {/* logo and Copyright */}
-        <span className="gap-2 flex">
+        <span className="gap-4 flex items-center justify-center">
           <Image src={Logo} width={40} height={40} alt="logo" />
 
-          <span className="flex justify-center items-center">
-            <p className="font-normal">
+          <span className="">
+            <p className="dark:text-white text-black">
               Copyright © {new Date().getFullYear()} - All right reserved by
               Clavel Marketing
             </p>
