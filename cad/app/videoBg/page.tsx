@@ -1,9 +1,14 @@
-const Video = () => {
+const Videos = () => {
   return (
     <>
-      <div>Hello World</div>
+      <div className="w-full h-[100vh]">
+        {" "}
+        <video autoPlay muted loop>
+          <source src="/1211.mp4" type="video/mp4" />
+        </video>
+      </div>
     </>
   );
 };
 
-export default Video;
+export default Videos;
