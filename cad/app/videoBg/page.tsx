@@ -4,7 +4,7 @@ const Videos = () => {
       <div className="w-full h-[100vh]">
         {" "}
         <video autoPlay muted loop>
-          <source src="/1211.mp4" type="video/mp4" />
+          <source src="/grey.mp4" type="video/mp4" />
         </video>
       </div>
     </>
